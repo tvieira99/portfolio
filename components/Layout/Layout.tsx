@@ -1,6 +1,5 @@
 import React from 'react';
-import styled, { Keyframes, keyframes } from 'styled-components';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import styled from 'styled-components';
 import HeaderSection from '../Header/Header';
 import MainSection from '../MainSection/MainSection'
 import KnowMeSection from '../KnowMeSection/KnowMeSection';
