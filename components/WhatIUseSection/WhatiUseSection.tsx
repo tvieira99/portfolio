@@ -44,6 +44,8 @@ height: 8vh;
 width: 8vw;
 `;
 
+const prefix:string = '/portfolio';
+
 export default function WhatiUseSection({}){
   return(
     <div>
@@ -53,25 +55,25 @@ export default function WhatiUseSection({}){
       </ WhatiUseSectionHeaderContainer>
         <WhatiUseSectionFlexContainer>
           <img 
-          src='/mongodb.svg'
+          src= {prefix + '/mongodb.svg'}
           width={'200vh'}
           height={'200vh'}
            />
            <MarginBottom />
           <img 
-          src='/next-js.svg'
+          src={prefix + '/next-js.svg'}
           width={'200vh'}
           height={'200vh'}
            />
           <MarginBottom/>
           <img
-          src='/typescript.svg'
+          src={prefix + '/typescript.svg'}
           width={'200vh'}
           height={'200vh'}
           />
           <MarginBottom/>
           <img
-          src='/express-109.svg'
+          src={prefix + '/express-109.svg'}
           width={'200vh'}
           height={'200vh'}
           />
