@@ -1,6 +1,6 @@
 import Layout from '../components/Layout/Layout';
 
-const prefix:string = '/portfolio';
+const prefix:string = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 const IndexPage = () => (
   <div>

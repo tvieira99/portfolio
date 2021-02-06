@@ -44,7 +44,7 @@ height: 8vh;
 width: 8vw;
 `;
 
-const prefix:string = '/portfolio';
+const prefix:string = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function WhatiUseSection({}){
   return(
