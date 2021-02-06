@@ -27,10 +27,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run build
-    - env: 
+      env: 
         NEXT_PUBLIC_BSE_PATH: /portfolio
     - run: npm run export
-    - env: 
+      env: 
         NEXT_PUBLIC_BSE_PATH: /portfolio
     - run: touch ./out/.nojekyll
     - name: Deploy 🚀
